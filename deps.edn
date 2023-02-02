@@ -5,4 +5,6 @@
         ch.qos.logback/logback-classic {:mvn/version "1.4.5"}
         ch.qos.logback/logback-core {:mvn/version "1.4.5"}
         criterium/criterium {:mvn/version "0.4.6"}
-        superlifter/superlifter {:mvn/version "0.1.3"}}}
+        #_#_superlifter/superlifter {:mvn/version "0.1.3"}
+        superlifter/superlifter {:git/url   "https://github.com/SongKJ00/superlifter.git"
+                                 :sha       "36070f873b73527d429f41b639c4261fb5e4a961"}}}

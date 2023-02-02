@@ -113,11 +113,11 @@
      {:buckets {:Book/authors
                 {:triggers
                  {:queue-size {:threshold 10}
-                  :interval {:interval 200}}}
+                  :interval {:interval 50}}}
                 :Author/books
                 {:triggers
                  {:queue-size {:threshold 10}
-                  :interval {:interval 200}}}}
+                  :interval {:interval 50}}}}
       :urania-opts {:env {}}}))
 
   (c/with-progress-reporting
